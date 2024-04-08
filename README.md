@@ -48,7 +48,7 @@ The second part of the workshop gives an introduction and demonstration into mod
 1. You have a file browser to your left.
    - Top level is your **local home** on the VM. It exists as long as the VM.
    - **Do not use** `shared` (contains long-term storage but needs a *Collab* and is not suitable for storing Git repos) or `drive` (deprecated).
-1. **Clone your fork** of the `PLENA2024_NEST` repository under the "Git" logo in the left margin. There you also find tools for managing Git.
+1. **Clone your fork** of the `PLENA2024_NEST` repository under the "Git" logo in the left margin (use the HTTPS version: https://github.com/jhnnsnk/PLENA2024_NEST.git ). There you also find tools for managing Git.
 1. **Always commit and push at the end of a session.**
 1. EBRAINS will from time to time shut down inactive VMs. **Any material in your VM home directory will then be lost**—remember to push!
 1. You can shut down a server yourself via `File > Hub Control Panel`. The entire VM including your home on the VM is deleted then.
