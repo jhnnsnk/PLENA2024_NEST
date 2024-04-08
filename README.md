@@ -16,11 +16,24 @@ Tuesday April 9th, 16:00 – 17:00 pm and Wednesday, April 10th, 13:00 – 14:00
 Presented by Johanna Senk.  
 The second part of the workshop gives an introduction and demonstration into modeling of the dynamics and plasticity of spiking neuronal networks. The tutorial explains graphical as well as programmatic approaches on the basis of the simulation code NEST. We emphasize that full-scale models representing all the neurons and all the synapses of a circuit are within reach, removing the uncertainties of downscaling. Examples and exercises make use of the graphical user interface NEST Desktop and Jupyter notebooks for PyNEST code.
 
-## Content of this repository
+## NEST Desktop
 
-1. Introduction
-1. NEST Desktop
-1. PyNEST
+1. Go to https://nest-desktop.apps.hbp.eu. The Chrome browser usually works best.
+1. Sign in with your EBRAINS account.
+1. Click `START A NEW PROJECT`.
+1. If you want to load the project prepared in this repository, go to`PROJECTS -> Import Projects -> URL` and paste the link to the `Raw` version of `1_NESTDesktop2PyNEST/balanced_network.json`.  
+   (for convenience: https://raw.githubusercontent.com/jhnnsnk/PLENA2024_NEST/main/1_NESTDesktop2PyNEST/balanced_network.json)  
+   Press enter, select the file and `IMPORT`.
+
+### How NEST Desktop stores models
+
+- NEST Desktop stores models as *cookies in your browser*
+- Models will disappear when your browser cleans up cookies.
+
+| :zap: Always **export your models** to disk for safe storage. |
+|---------------------------------------------------------------|
+
+- And vice versa, if you experience any issues with the simulation, deleting cookies often helps.
 
 ## Working with the PyNEST examples on EBRAINS
 
@@ -48,11 +61,3 @@ If you remember on which site your VM is running, you can contact it directly:
 - https://lab.ch.ebrains.eu
 
 Please **do not** create VMs on both sites simultaneously to avoid resource waste!
-
-## How NEST Desktop stores models
-
-- NEST Desktop stores models as *cookies in your browser*
-- Models will disappear when your browser cleans up cookies
-
-| :zap: Always **export your models** to disk for safe storage |
-|--------------------------------------------------------------|
